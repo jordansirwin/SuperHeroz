@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 1505690cf5442469d98910c73a32e5a3
+timeCreated: 1511931343
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: adventuresofbatmanandrobin_batman_sheet_0
+    21300002: adventuresofbatmanandrobin_batman_sheet_1
+    21300004: adventuresofbatmanandrobin_batman_sheet_2
+    21300006: adventuresofbatmanandrobin_batman_sheet_3
+    21300008: adventuresofbatmanandrobin_batman_sheet_4
+    21300010: adventuresofbatmanandrobin_batman_sheet_5
+    21300012: adventuresofbatmanandrobin_batman_sheet_6
+    21300014: adventuresofbatmanandrobin_batman_sheet_7
+    21300016: adventuresofbatmanandrobin_batman_sheet_8
+    21300018: adventuresofbatmanandrobin_batman_sheet_9
+    21300020: adventuresofbatmanandrobin_batman_sheet_10
+    21300022: adventuresofbatmanandrobin_batman_sheet_11
+    21300024: adventuresofbatmanandrobin_batman_sheet_12
+    21300026: adventuresofbatmanandrobin_batman_sheet_13
+    21300028: adventuresofbatmanandrobin_batman_sheet_14
+    21300030: adventuresofbatmanandrobin_batman_sheet_15
+    21300032: adventuresofbatmanandrobin_batman_sheet_16
+    21300034: adventuresofbatmanandrobin_batman_sheet_17
+    21300036: adventuresofbatmanandrobin_batman_sheet_18
+    21300038: adventuresofbatmanandrobin_batman_sheet_19
+    21300040: adventuresofbatmanandrobin_batman_sheet_20
+    21300042: adventuresofbatmanandrobin_batman_sheet_21
+    21300044: adventuresofbatmanandrobin_batman_sheet_22
+    21300046: adventuresofbatmanandrobin_batman_sheet_23
+    21300048: adventuresofbatmanandrobin_batman_sheet_24
+    21300050: adventuresofbatmanandrobin_batman_sheet_25
+    21300052: adventuresofbatmanandrobin_batman_sheet_26
+    21300054: adventuresofbatmanandrobin_batman_sheet_27
+    21300056: adventuresofbatmanandrobin_batman_sheet_28
+    21300058: adventuresofbatmanandrobin_batman_sheet_29
+    21300060: adventuresofbatmanandrobin_batman_sheet_30
+    21300062: adventuresofbatmanandrobin_batman_sheet_31
+    21300064: adventuresofbatmanandrobin_batman_sheet_32
+    21300066: adventuresofbatmanandrobin_batman_sheet_33
+    21300068: adventuresofbatmanandrobin_batman_sheet_34
+    21300070: adventuresofbatmanandrobin_batman_sheet_35
+    21300072: adventuresofbatmanandrobin_batman_sheet_36
+    21300074: adventuresofbatmanandrobin_batman_sheet_37
+    21300076: adventuresofbatmanandrobin_batman_sheet_38
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 414
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 414
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 414
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 414
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 414
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 345
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 345
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 345
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 345
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 345
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 276
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 276
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 276
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 276
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 207
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 207
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 207
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 207
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 138
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 138
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 138
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 138
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 138
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 69
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 69
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 69
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 69
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: adventuresofbatmanandrobin_batman_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 69.166664
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

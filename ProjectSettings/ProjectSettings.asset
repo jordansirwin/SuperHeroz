@@ -150,7 +150,7 @@ PlayerSettings:
   applicationIdentifier:
     iOS: com.jordansirwin.SuperHeroz
   buildNumber:
-    iOS: 3
+    iOS: 6
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
@@ -218,7 +218,7 @@ PlayerSettings:
   metalEditorSupport: 0
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 1
-  appleDeveloperTeamID: 
+  appleDeveloperTeamID: MKMR6GQ722
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0

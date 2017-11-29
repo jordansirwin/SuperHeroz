@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+	public GameObject hulk;
+	public GameObject batman;
+
 	public AudioClip punch;
 	public AudioClip jump;
 
@@ -11,6 +14,7 @@ public class PlayerController : MonoBehaviour {
 	private float gravity = -0.1f;
 	private float jumpVelocity = 2.5f;
 
+	private GameObject activeCharacter;
 	private Vector3 moveDirection = Vector3.zero;
 	private bool isJumping = false;
 	private bool isGrounded = false;
@@ -22,11 +26,32 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		renderer = GetComponent<Renderer> ();
-		animator = GetComponent<Animator>();
+		ChangeCharacter ("Batman");
 		audio = GetComponent<AudioSource> ();
 
 		SwipeManager.OnSwipeDetected += OnSwipeDetected;
+	}
+
+	public void ChangeCharacter(string characterName) {
+
+		hulk.SetActive (false);
+		batman.SetActive (false);
+
+		switch (characterName) { 
+		case "Hulk":
+			activeCharacter = hulk;
+			break;
+		case "Batman":
+			activeCharacter = batman;
+			break;
+		default:
+			activeCharacter = hulk;
+			break;
+		}
+
+		activeCharacter.SetActive (true);
+		renderer = activeCharacter.GetComponent<Renderer> ();
+		animator = activeCharacter.GetComponent<Animator> ();
 	}
 
 	private bool shouldJump = false;
@@ -132,7 +157,7 @@ public class PlayerController : MonoBehaviour {
 			audio.pitch = Random.Range(0.5f, 2f);
 			audio.PlayOneShot (punch);
 
-			var punchLen = GetComponent<Renderer>().bounds.extents.x * 1.0f;
+			var punchLen = renderer.bounds.extents.x * 1.0f;
 			Debug.DrawRay (transform.position, facing * punchLen, Color.red, 1f);
 			var hits = Physics2D.RaycastAll (transform.position, facing, punchLen, LayerMask.GetMask ("Default"));
 			foreach (var hit in hits) {
