@@ -2,11 +2,17 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/captain_america.tpsheet
+- Assets/Sprites/superman.tpsheet
 - Assets/Sprites/wonderwoman.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/captain_america.png
+- Assets/Sprites/superman.png
 - Assets/Sprites/wonderwoman.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
 - 
 enableDebugOutput: 0

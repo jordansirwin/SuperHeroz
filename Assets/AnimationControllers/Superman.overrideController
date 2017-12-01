@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Superman
+  m_Controller: {fileID: 9100000, guid: a9d38fe576d044d06b03d9973cf2b266, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ef9252a4d4f7e4a0d84b215d58c73844, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 83731733eaeab405eb8381eeec1fa76b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: be1efd599c2cf45d6a13333c4518b389, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e6965c61b77844917857aa5dd3fbedf2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ea4ddc2a1d883478ca0921c3943d668a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2ba58b33e6ef447d689ed245c1d58d20, type: 2}
