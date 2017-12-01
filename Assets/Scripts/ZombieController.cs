@@ -13,6 +13,8 @@ public class ZombieController : MonoBehaviour {
 	public string animationTriggerAttack = "attack";
 	public string animationTriggerDead = "dead";
 
+	public GameObject[] animationControllers;
+
 	private float gravity = -0.1f;
 //	private float jumpVelocity = 2.5f;
 

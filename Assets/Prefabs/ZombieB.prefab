@@ -9,47 +9,47 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1383176934081322}
+  m_RootGameObject: {fileID: 1058287305682560}
   m_IsPrefabParent: 1
---- !u!1 &1383176934081322
+--- !u!1 &1058287305682560
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4182607449084710}
-  - component: {fileID: 212721841850520182}
-  - component: {fileID: 95599881116495972}
-  - component: {fileID: 114504283207657592}
-  - component: {fileID: 61224009068469054}
-  - component: {fileID: 82227195241178028}
+  - component: {fileID: 4496227417487928}
+  - component: {fileID: 212434912646516016}
+  - component: {fileID: 95807722133590900}
+  - component: {fileID: 114845805252199170}
+  - component: {fileID: 61776388975118922}
+  - component: {fileID: 82938386008774250}
   m_Layer: 0
-  m_Name: ZombieA
+  m_Name: ZombieB
   m_TagString: Punchable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4182607449084710
+--- !u!4 &4496227417487928
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383176934081322}
+  m_GameObject: {fileID: 1058287305682560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.8, y: -3.95, z: 0.10651777}
+  m_LocalPosition: {x: 3.621, y: -3.95, z: 0.10651777}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61224009068469054
+--- !u!61 &61776388975118922
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383176934081322}
+  m_GameObject: {fileID: 1058287305682560}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -69,12 +69,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
---- !u!82 &82227195241178028
+--- !u!82 &82938386008774250
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383176934081322}
+  m_GameObject: {fileID: 1058287305682560}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -149,16 +149,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!95 &95599881116495972
+--- !u!95 &95807722133590900
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383176934081322}
+  m_GameObject: {fileID: 1058287305682560}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 909c4430c425f4bbc8766d953aba054a, type: 2}
+  m_Controller: {fileID: 22100000, guid: 542491509e5f347cf9a7b4bb720f0129, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -166,12 +166,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114504283207657592
+--- !u!114 &114845805252199170
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383176934081322}
+  m_GameObject: {fileID: 1058287305682560}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ce65b86b15504fd2b7770b35af4516a, type: 3}
@@ -185,13 +185,12 @@ MonoBehaviour:
   animationTriggerJump: jump
   animationTriggerAttack: attack
   animationTriggerDead: dead
-  animationControllers: []
---- !u!212 &212721841850520182
+--- !u!212 &212434912646516016
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383176934081322}
+  m_GameObject: {fileID: 1058287305682560}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -220,7 +219,7 @@ SpriteRenderer:
   m_SortingLayerID: 609731585
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300016, guid: a12e7dfe8fd5f4c16872de9d7edd69bc, type: 3}
+  m_Sprite: {fileID: 21300010, guid: a12e7dfe8fd5f4c16872de9d7edd69bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
