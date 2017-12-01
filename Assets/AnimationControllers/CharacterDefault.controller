@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Hulk
+  m_Name: CharacterDefault
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: playerPunch
@@ -183,7 +183,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: hulk_walk
+  m_Name: walk
   m_Speed: 0.35
   m_CycleOffset: 0
   m_Transitions:
@@ -210,7 +210,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: hulk_idle
+  m_Name: idle
   m_Speed: 0.25
   m_CycleOffset: 0
   m_Transitions:
@@ -237,7 +237,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: hulk_punch
+  m_Name: punch
   m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:

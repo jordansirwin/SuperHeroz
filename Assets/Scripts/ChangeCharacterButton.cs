@@ -2,22 +2,23 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class ButtonBatman : MonoBehaviour
+public class ChangeCharacterButton : MonoBehaviour
 {
-	public GameObject player;
-	public PlayerController playerController;
+	public string characterName;
 
+	private GameObject player;
+	private PlayerController playerController;
 
 	void Start()
 	{
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerController = player.GetComponent<PlayerController>();
-		Button btn = GetComponent<Button>();
+		var btn = GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
 	}
 
 	void TaskOnClick()
 	{
-		playerController.ChangeCharacter ("Batman");
+		playerController.ChangeCharacter (characterName);
 	}
 }

@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+	public GameObject[] characters;
 	public GameObject hulk;
 	public GameObject batman;
+	public GameObject wonderWoman;
 
 	public AudioClip punch;
 	public AudioClip jump;
@@ -34,22 +36,13 @@ public class PlayerController : MonoBehaviour {
 
 	public void ChangeCharacter(string characterName) {
 
-		hulk.SetActive (false);
-		batman.SetActive (false);
-
-		switch (characterName) { 
-		case "Hulk":
-			activeCharacter = hulk;
-			break;
-		case "Batman":
-			activeCharacter = batman;
-			break;
-		default:
-			activeCharacter = hulk;
-			break;
+		foreach (var c in characters) {
+			c.SetActive (c.name == characterName);
+			if (c.activeSelf) {
+				activeCharacter = c;
+			}
 		}
 
-		activeCharacter.SetActive (true);
 		renderer = activeCharacter.GetComponent<Renderer> ();
 		animator = activeCharacter.GetComponent<Animator> ();
 	}
