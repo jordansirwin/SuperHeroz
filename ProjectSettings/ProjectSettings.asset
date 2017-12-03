@@ -150,7 +150,7 @@ PlayerSettings:
   applicationIdentifier:
     iOS: com.jordansirwin.SuperHeroz
   buildNumber:
-    iOS: 15
+    iOS: 16
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0

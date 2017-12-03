@@ -65,15 +65,18 @@ public class ZombieController : MonoBehaviour {
 		// are we on the ground?
 		var len = GetComponent<Renderer>().bounds.extents.y;
 		Debug.DrawRay (transform.position, Vector2.down * len, Color.blue, 1f, false);
-		if (!isGrounded) {// && !startedJump) {
+//		if (!isGrounded) {// && !startedJump) {
 			var hit = Physics2D.Raycast (transform.position, Vector2.down, len, LayerMask.GetMask ("Ground"));
-			if (hit.collider != null) {
-				Debug.Log ("Enemy on ground");
+			if (hit.collider == null) {
+				isGrounded = false;
+			}
+			else {
+//				Debug.Log ("Enemy on ground");
 				moveDirection.y = 0f;
 				isGrounded = true;
 //				isJumping = false;
 			}
-		}
+//		}
 
 		//TODO: JUMPING SOMETIMES IS DOUBLE HEIGHT :(
 

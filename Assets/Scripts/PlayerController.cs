@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlayerController : MonoBehaviour {
 
@@ -14,7 +15,9 @@ public class PlayerController : MonoBehaviour {
 
 	private float velocity = 1.0f;
 	private float gravity = -0.1f;
-	private float jumpVelocity = 2.5f;
+	public float jumpVelocity = 2.5f;
+	public float jumpHeight = 0.5f;
+	private float currentJumpMaxHeight;
 
 	private GameObject activeCharacter;
 	private Vector3 moveDirection = Vector3.zero;
@@ -100,10 +103,31 @@ public class PlayerController : MonoBehaviour {
 		// are we on the ground?
 		var len = renderer.bounds.extents.y;
 		Debug.DrawRay (transform.position, Vector2.down * len, Color.blue, 1f, false);
-		if (!isGrounded) {// && !startedJump) {
+		if (!isJumping) {// && !startedJump) {
+//			Debug.Log("Player check for on ground");
 			var hit = Physics2D.Raycast (transform.position, Vector2.down, len, LayerMask.GetMask ("Ground"));
-			if (hit.collider != null) {
-				Debug.Log ("Player on ground");
+			if (hit.collider == null) {
+				isGrounded = false;
+			}
+			else {
+
+//				var c = hit.collider as TilemapCollider2D;
+//				// TODO: Force player onto the correct Y position of the ground they hit
+//				var tileMap = hit.collider.gameObject as Tilemap;
+//				var tile = tileMap.GetTile (hit.point);
+//				TileData td;
+//				var gY = tile.
+//				var gH = hit.collider.bounds.extents.y;
+//				var pH = renderer.bounds.extents.y;
+//				Debug.Log (string.Format("Player on ground. groundY: {0}, groundHeight: {1}, playerHeight: {2}", 
+//					gY, gH, pH
+//				));
+//				// force the player to be on the ground surface it contacted
+//				var groundY = gY;// + gH + pH;
+//				var playerPos = new Vector3 (transform.position.x, groundY, transform.position.z);
+//				transform.position = playerPos;
+
+
 				moveDirection.y = 0f;
 				isGrounded = true;
 				isJumping = false;
@@ -133,13 +157,16 @@ public class PlayerController : MonoBehaviour {
 		//		var startedJump = false;
 		if (isGrounded && !isJumping) {
 			if(shouldJump) {
+//				Debug.Log ("Player should jump");
 				isJumping = true;
 				isGrounded = false;
 				shouldJump = false;
-				moveDirection.y = jumpVelocity * Time.deltaTime;
+
+				// calculate the jump height from current position
+				currentJumpMaxHeight = transform.position.y + jumpHeight;
+				StartCoroutine (Jumping());
 				audio.pitch = Random.Range(0.5f, 2f);
 				audio.PlayOneShot (jump);
-				Debug.Log ("Player jumping " + moveDirection.y);
 			}
 		}
 
@@ -164,13 +191,31 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 
-		// are we falling?
-		if (!isGrounded) {
-//			Debug.Log ("Player falling");
+		// are we falling and at max jump height?
+		if (!isGrounded && !isJumping) {
+//			Debug.Log ("Player is falling");
 			moveDirection.y += gravity * Time.deltaTime;
 		}
 			
 		transform.Translate(moveDirection.x * Time.deltaTime, moveDirection.y, moveDirection.z);
+	}
+
+	IEnumerator Jumping() {
+//		Debug.Log ("Jumping...");
+		while (isJumping) {
+//			Debug.Log ("Jumping... isJumping");
+			if (transform.position.y <= currentJumpMaxHeight) {
+//				Debug.Log (string.Format ("Jumping... {0} <= {1}", transform.position.y, currentJumpMaxHeight));
+				transform.Translate (Vector3.up * jumpVelocity * Time.smoothDeltaTime);
+			} else {
+//				Debug.Log ("Jumping... start falling");
+				isJumping = false;
+			}
+				
+			yield return new WaitForEndOfFrame ();
+		} 
+
+		StopCoroutine (Jumping ());
 	}
 		
 }
