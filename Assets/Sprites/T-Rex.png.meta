@@ -1,20 +1,17 @@
 fileFormatVersion: 2
-guid: 90618e33de62843e798efd8052a61242
-timeCreated: 1512144915
+guid: 93a54aa304c984781981c6a05667a8bf
+timeCreated: 1516682441
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Slice-1
-    21300002: Slice-2
-    21300004: Slice-3
-    21300006: Slice-4
-    21300008: Slice-5
-    21300010: Slice-6
-    21300012: Slice-7
-    21300014: Slice-8
-    21300016: Slice-9
-    21300018: Slice-10
-    21300020: Slice-11
+    21300000: T-Rex_0
+    21300002: T-Rex_1
+    21300004: T-Rex_2
+    21300006: T-Rex_3
+    21300008: T-Rex_4
+    21300010: T-Rex_5
+    21300012: T-Rex_6
+    21300014: T-Rex_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -77,163 +74,151 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slice-1
+      name: T-Rex_0
       rect:
         serializedVersion: 2
-        x: 138
-        y: 233
-        width: 60
-        height: 91
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4945055}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Slice-2
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 234
-        width: 61
-        height: 91
+        x: 0
+        y: 392.25
+        width: 250.5
+        height: 130.75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-3
+      name: T-Rex_1
       rect:
         serializedVersion: 2
-        x: 148
-        y: 326
-        width: 62
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5, y: 0.50555557}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Slice-4
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 236
-        width: 61
-        height: 93
+        x: 250
+        y: 392.25
+        width: 250.5
+        height: 130.75
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-5
+      name: T-Rex_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 331
-        width: 71
-        height: 88
-      alignment: 9
-      pivot: {x: 0.5070422, y: 0.48863637}
+        x: 0
+        y: 262.25
+        width: 250.5
+        height: 130.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-6
+      name: T-Rex_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 143
-        width: 59
-        height: 89
-      alignment: 9
-      pivot: {x: 0.4915254, y: 0.48314607}
+        x: 250
+        y: 262.25
+        width: 250.5
+        height: 130.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-7
+      name: T-Rex_4
       rect:
         serializedVersion: 2
-        x: 166
-        y: 418
-        width: 79
-        height: 93
-      alignment: 9
-      pivot: {x: 0.48734176, y: 0.49462366}
+        x: 0
+        y: 132.25
+        width: 250.5
+        height: 130.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-8
+      name: T-Rex_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 60
-        height: 90
-      alignment: 9
-      pivot: {x: 0.56666666, y: 0.50555557}
+        x: 250
+        y: 132.25
+        width: 250.5
+        height: 130.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-9
+      name: T-Rex_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 421
-        width: 81
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5, y: 0.48333332}
+        x: 0
+        y: 2.25
+        width: 250.5
+        height: 130.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Slice-10
+      name: T-Rex_7
       rect:
         serializedVersion: 2
-        x: 84
-        y: 421
-        width: 80
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5222222}
+        x: 250
+        y: 2.25
+        width: 250.5
+        height: 130.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Slice-11
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 327
-        width: 72
-        height: 92
-      alignment: 9
-      pivot: {x: 0.5, y: 0.48913044}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

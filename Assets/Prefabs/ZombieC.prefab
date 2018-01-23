@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ce65b86b15504fd2b7770b35af4516a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 0.1
+  velocity: 0.2
   dead: {fileID: 8300000, guid: 74a5918efc2b743978270757e5c2aa9a, type: 3}
   groan: {fileID: 8300000, guid: 753fb0589353a4c8ca92d2557dee32c4, type: 3}
   animationTriggerWalk: walk
@@ -185,6 +185,7 @@ MonoBehaviour:
   animationTriggerJump: jump
   animationTriggerAttack: attack
   animationTriggerDead: dead
+  animationControllers: []
 --- !u!212 &212184804558117260
 SpriteRenderer:
   m_ObjectHideFlags: 1

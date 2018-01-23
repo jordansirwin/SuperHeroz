@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour {
 			var prefab = zombies [Random.Range (0, zombies.Length)];
 			var zombie = Instantiate (prefab, new Vector3(Random.Range(-13, 13), 0, 0), Quaternion.identity);
 			var controller = zombie.GetComponent<ZombieController> ();
-			controller.velocity = Random.Range (0.1f, 0.3f);
+			controller.velocity = Random.Range (controller.velocity / 2, controller.velocity * 2);
 			count = GameObject.FindGameObjectsWithTag ("Punchable").Length;
 		}
 	}
