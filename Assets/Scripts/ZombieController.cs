@@ -16,18 +16,13 @@ public class ZombieController : MonoBehaviour {
 	public GameObject[] animationControllers;
 
 	private float gravity = -0.1f;
-//	private float jumpVelocity = 2.5f;
-
 	private Vector3 moveDirection = Vector3.zero;
-//	private bool isJumping = false;
 	private bool isGrounded = false;
 	private bool isDead = false;
 	private Vector3 facing = Vector3.right;
 	private Animator animator;
 	private GameObject player;
 	private new AudioSource audio;
-
-	//	private Renderer renderer;
 
 	// Use this for initialization
 	void Start () {
@@ -65,51 +60,15 @@ public class ZombieController : MonoBehaviour {
 		// are we on the ground?
 		var len = GetComponent<Renderer>().bounds.extents.y;
 		Debug.DrawRay (transform.position, Vector2.down * len, Color.blue, 1f, false);
-//		if (!isGrounded) {// && !startedJump) {
-			var hit = Physics2D.Raycast (transform.position, Vector2.down, len, LayerMask.GetMask ("Ground"));
-			if (hit.collider == null) {
-				isGrounded = false;
-			}
-			else {
+		var hit = Physics2D.Raycast (transform.position, Vector2.down, len, LayerMask.GetMask ("Ground"));
+		if (hit.collider == null) {
+			isGrounded = false;
+		}
+		else {
 //				Debug.Log ("Enemy on ground");
-				moveDirection.y = 0f;
-				isGrounded = true;
-//				isJumping = false;
-			}
-//		}
-
-		//TODO: JUMPING SOMETIMES IS DOUBLE HEIGHT :(
-
-		// did we start jumping?
-		//		var startedJump = false;
-//		if (isGrounded && !isJumping
-//			&& Input.GetKeyDown (KeyCode.Space)) {
-//			//			startedJump = true;
-//			isJumping = true;
-//			isGrounded = false;
-//			moveDirection.y = jumpVelocity * Time.deltaTime;
-//			Debug.Log ("Enemy jumping " + moveDirection.y);
-//		}
-
-		// are we punching?
-//		if (Input.GetKeyDown (KeyCode.Mouse0)) {
-////			animator.SetTrigger (animationTriggerAttack);
-//
-//			var punchLen = GetComponent<Renderer>().bounds.extents.x * 2;
-//			Debug.DrawRay (transform.position, facing * punchLen, Color.red, 3f);
-//			var hits = Physics2D.RaycastAll (transform.position, facing, punchLen, LayerMask.GetMask ("Default"));
-//			foreach (var hit in hits) {
-//				if (hit.collider.CompareTag("Punchable")) {
-//					Debug.Log ("Punched something!");
-//					var ZombieController = hit.collider.gameObject.GetComponent<ZombieController> ();
-//					//					var animator = hit.collider.gameObject.GetComponent<Animator> ();
-//					//					animator.SetTrigger ("zombieDead");
-//					StartCoroutine(ZombieController.Die());
-//					//					yield return new WaitForSeconds(1.0f);
-//					//					Destroy (hit.collider.gameObject);
-//				}
-//			}
-//		}
+			moveDirection.y = 0f;
+			isGrounded = true;
+		}
 
 		// are we falling?
 		if (!isGrounded) {

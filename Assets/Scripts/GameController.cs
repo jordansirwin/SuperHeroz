@@ -7,8 +7,6 @@ public class GameController : MonoBehaviour {
 	public int zombieMax = 10;
 	public GameObject[] zombies;
 
-
-
 	// Use this for initialization
 	void Start () {
 	}

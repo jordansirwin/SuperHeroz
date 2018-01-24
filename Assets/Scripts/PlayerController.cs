@@ -6,9 +6,6 @@ using UnityEngine.Tilemaps;
 public class PlayerController : MonoBehaviour {
 
 	public GameObject[] characters;
-	public GameObject hulk;
-	public GameObject batman;
-	public GameObject wonderWoman;
 
 	public AudioClip punch;
 	public AudioClip jump;
@@ -103,31 +100,14 @@ public class PlayerController : MonoBehaviour {
 		// are we on the ground?
 		var len = renderer.bounds.extents.y;
 		Debug.DrawRay (transform.position, Vector2.down * len, Color.blue, 1f, false);
-		if (!isJumping) {// && !startedJump) {
+		if (!isJumping) {
 //			Debug.Log("Player check for on ground");
 			var hit = Physics2D.Raycast (transform.position, Vector2.down, len, LayerMask.GetMask ("Ground"));
 			if (hit.collider == null) {
 				isGrounded = false;
 			}
 			else {
-
-//				var c = hit.collider as TilemapCollider2D;
-//				// TODO: Force player onto the correct Y position of the ground they hit
-//				var tileMap = hit.collider.gameObject as Tilemap;
-//				var tile = tileMap.GetTile (hit.point);
-//				TileData td;
-//				var gY = tile.
-//				var gH = hit.collider.bounds.extents.y;
-//				var pH = renderer.bounds.extents.y;
-//				Debug.Log (string.Format("Player on ground. groundY: {0}, groundHeight: {1}, playerHeight: {2}", 
-//					gY, gH, pH
-//				));
-//				// force the player to be on the ground surface it contacted
-//				var groundY = gY;// + gH + pH;
-//				var playerPos = new Vector3 (transform.position.x, groundY, transform.position.z);
-//				transform.position = playerPos;
-
-
+				// stop y movement and set state as needed
 				moveDirection.y = 0f;
 				isGrounded = true;
 				isJumping = false;
